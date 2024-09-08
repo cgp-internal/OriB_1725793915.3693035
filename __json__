@@ -1,0 +1,26 @@
+{
+    "test_profiler\\.gitignore": {
+        "description": "Gitignore file for test profiler project",
+        "dependencies": {},
+        "exposes": []
+    },
+    "test_profiler\\index.html": {
+        "description": "HTML file that displays Hello World",
+        "dependencies": {},
+        "exposes": []
+    },
+    "test_profiler\\README.md": {
+        "description": "Basic README file for a HTML project",
+        "dependencies": {
+            "test_profiler\\index.html": [],
+            "test_profiler\\.gitignore": [],
+            "test_profiler\\js\\index.js": []
+        },
+        "exposes": []
+    },
+    "test_profiler\\js\\index.js": {
+        "description": "Logs a demo message to the console.",
+        "dependencies": {},
+        "exposes": []
+    }
+}
